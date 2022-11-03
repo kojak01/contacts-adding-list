@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    max-width: 1440px;
+
+}
+p {
+    padding: 50px;
+}
+#jeden {
+    border: 1px solid black;
+    max-width: 1440px;
+}
+
+#dwa {
+    border: 1px solid green;
+    max-width: 1000px;
+}
+
+#trzy {
+    border: 1px solid red;
+    max-width: 720px;
+}
