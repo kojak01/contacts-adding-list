@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Contacts</title>
 </head>
-<body>
-    <div id="jeden">
-        <p>jeden</p>
-        <div id="dwa">
-            <p>dwa</p>
-            <div id="trzy">
-                <p>trzy</p>
-            </div>
-        </div>
+<div id="contact-list">
+    <div id="contact-form">
+        <input
+         type="text"
+         autocomplete="off"
+         placeholder="name and surname"
+         id="name"
+        />
+        <input type="text"
+        autocomplete="off"
+        placeholder="phone number"
+        />
+        <button id="add-contact">+</button>
     </div>
-    <script src="app.js"></script>
+    <div id="contacts"></div>
+</div>
+<script src="app.js"></script>
+<body>
+    
 </body>
 </html>
